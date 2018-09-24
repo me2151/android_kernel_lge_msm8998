@@ -1415,7 +1415,7 @@ static int media_not_present(struct scsi_disk *sdkp,
 	return 0;
 }
 
-#ifdef CONFIG_MACH_LGE
+#ifdef CONFIG_MACH_LGE2
 /**
  *	sd_check_events - check media events
  *	@disk: kernel device descriptor
